@@ -1,0 +1,11 @@
+RAAH AI model folder
+
+Real pothole AI:
+  models\pothole_seg.pt
+
+Automatic street-light AI:
+  models\streetlight.pt
+
+The dashboard will still launch when these files are missing.
+It simply disables the corresponding detector instead of attempting to
+silently download a generic model.
